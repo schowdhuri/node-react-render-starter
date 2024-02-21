@@ -2,6 +2,9 @@
   "name": "node-react-render-starter",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "deps:client": "cd client && npm install",
     "deps:server": "cd server && npm install",
